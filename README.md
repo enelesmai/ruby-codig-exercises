@@ -1,1 +1,1 @@
-# ruby-codig-exercises
+# ruby-coding-exercises
