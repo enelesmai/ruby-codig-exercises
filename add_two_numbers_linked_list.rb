@@ -47,7 +47,7 @@ class LinkedList
   end
   def find_tail
     node = @head
-    return node if !node.next
-    return node if !node.next while (node = node.next)
+    node = node.next while node && node.next
+    node
   end
 end
